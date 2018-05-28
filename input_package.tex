@@ -1,0 +1,60 @@
+\usepackage{fullpage}
+\usepackage{amssymb, amsmath}
+\usepackage{natbib}
+\usepackage{booktabs}
+\usepackage{url}
+\usepackage{setspace}
+\usepackage{hyperref}
+%\usepackage{gensymb}
+\usepackage{pdflscape}
+\usepackage{etoolbox}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{parskip}
+\usepackage[margin=1in]{geometry} % customize margins 
+\usepackage{parskip} % one line between paragraphs
+\usepackage{grffile} % allows ~, . ,etc. into figure file names
+
+\usepackage{comment}
+\usepackage[usenames,dvipsnames,svgnames]{xcolor}
+\usepackage{soul}
+\usepackage{xspace}
+
+
+\onehalfspacing
+
+
+
+% normal figure, centred in page
+\newcommand{\capnow}{}
+\newcommand{\addcenterfig}[3][Caption to be completed]{
+  \begin{figure}[!h]
+    \begin{center}
+      \includegraphics[width=\textwidth]{#3}
+     \caption{#1 \label{#2}}
+    \end{center}
+  \end{figure}
+}
+
+% landscape figure
+\newcommand{\addcenterfigLS}[3][Caption to be completed]{
+ \newgeometry{left=0.5cm,bottom=2.5cm,right=1cm,top=2.5cm}
+
+\begin{landscape}
+%\topskip0pt
+   \vspace*{\fill}
+
+\begin{figure}[!h]
+    \begin{center}
+      \includegraphics[width=620pt]{#3}
+     \caption{#1 \label{#2}}
+    \end{center}
+
+  \end{figure}
+  \vspace*{\fill}
+
+\clearpage
+\end{landscape}
+\restoregeometry
+}
