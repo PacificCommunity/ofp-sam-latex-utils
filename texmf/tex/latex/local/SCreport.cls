@@ -217,10 +217,10 @@ citecolor= NavyBlue}
 \IfStrEq{\typedef}{SC14}{\def\tpnum{WCPFC-SC14-2018}}{}
 
 %%%%%%%%%% Settings for SC15: 
-\IfStrEq{\typedef}{SC11}{\def\tpmeeting{SCIENTIFIC COMMITTEE\\ELEVENTH REGULAR SESSION}}{}
-\IfStrEq{\typedef}{SC11}{\def\tplocation{Pohnpei, Federated States of Micronesia}}{}
-\IfStrEq{\typedef}{SC11}{\def\tpdates{12--20 August 2019}}{}
-\IfStrEq{\typedef}{SC11}{\def\tpnum{WCPFC-SC11-2019}}{}
+\IfStrEq{\typedef}{SC15}{\def\tpmeeting{SCIENTIFIC COMMITTEE\\FIFTEENTH REGULAR SESSION}}{}
+\IfStrEq{\typedef}{SC15}{\def\tplocation{Pohnpei, Federated States of Micronesia}}{}
+\IfStrEq{\typedef}{SC15}{\def\tpdates{12--20 August 2019}}{}
+\IfStrEq{\typedef}{SC15}{\def\tpnum{WCPFC-SC11-2019}}{}
 
 
 %%%%%%%%%% Settings for MOW4: 
