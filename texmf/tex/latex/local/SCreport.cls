@@ -216,6 +216,12 @@ citecolor= NavyBlue}
 \IfStrEq{\typedef}{SC14}{\def\tpdates{8--16 August 2018}}{}
 \IfStrEq{\typedef}{SC14}{\def\tpnum{WCPFC-SC14-2018}}{}
 
+%%%%%%%%%% Settings for SC15: 
+\IfStrEq{\typedef}{SC11}{\def\tpmeeting{SCIENTIFIC COMMITTEE\\ELEVENTH REGULAR SESSION}}{}
+\IfStrEq{\typedef}{SC11}{\def\tplocation{Pohnpei, Federated States of Micronesia}}{}
+\IfStrEq{\typedef}{SC11}{\def\tpdates{12--20 August 2019}}{}
+\IfStrEq{\typedef}{SC11}{\def\tpnum{WCPFC-SC11-2019}}{}
+
 
 %%%%%%%%%% Settings for MOW4: 
 \IfStrEq{\typedef}{MOW4}{\def\tpmeeting{WCPFC\\HARVEST STRATEGY WORKSHOP}}{}
