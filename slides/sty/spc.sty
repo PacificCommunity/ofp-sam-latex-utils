@@ -1,0 +1,122 @@
+% LaTeX package to create slides in SPC Secretariat format
+
+% History
+% 1.0  12 Jan 2022  AM created, based on ices.sty and gfcm.sty
+
+\ProvidesPackage{spc}
+
+% --------------
+% 1 Dependencies
+% --------------
+
+% 1.1 Packages
+\usepackage{listings}
+
+% 1.2 Banner and logo
+\graphicspath{{figs/}}
+
+% ----------
+% 2 Settings
+% ----------
+
+% 2.1 Character
+\frenchspacing
+\lstset{basicstyle=\ttfamily,literate={~}{$\sim$}{2}}
+
+% 2.2 Color
+\definecolor{darkblue}{rgb}{0.1,0.3,0.5}
+\definecolor{blue}{rgb}{0.0,0.4,0.7}
+\definecolor{darkgray}{rgb}{0.2,0.2,0.2}
+\definecolor{gray}{rgb}{0.6,0.6,0.6}
+\definecolor{darkgreen}{rgb}{0.1,0.4,0.4}
+\definecolor{green}{rgb}{0.0,0.6,0.5}
+\definecolor{orange}{rgb}{0.9,0.3,0.2}
+\setbeamercolor{palette primary}{fg=white,bg=darkblue}
+\setbeamercolor{item}{fg=darkgreen,bg=white}
+
+% 2.3 Slide title
+\setbeamercolor{frametitle}{fg=darkgray}
+\setbeamerfont{frametitle}{size=\large,series=\bfseries}
+
+% 2.4 List
+\setbeamertemplate{itemize item}{\scriptsize\raise1.25pt
+  \hbox{\donotcoloroutermaths$\blacktriangleright$}}
+
+% 2.5 Footer
+\setbeamertemplate{navigation symbols}{}
+
+% 2.6 Margins
+\setbeamersize{text margin left=5ex, text margin right=5ex}
+\setbeamertemplate{frametitle}{\vspace{3ex}\insertframetitle}
+
+% 2.7 Background
+\setbeamertemplate{background}{
+  \begin{picture}(0,0)
+    \put(374,-37.6){
+      \includegraphics[width=21.6mm]{spc-logo}
+    }
+  \end{picture}
+}
+
+% 2.8 Title page
+\newcommand\titlepos{-20}
+\newcommand\authorpos{-100}
+\newcommand\datepos{-120}
+\setbeamercolor{title}{fg=darkgray}
+\setbeamercolor{author}{fg=darkgray}
+\setbeamercolor{date}{fg=darkgray}
+\setbeamerfont{title}{series=\LARGE\bfseries}
+\setbeamerfont{author}{size=\footnotesize}
+\setbeamerfont{date}{size=\footnotesize}
+\setbeamertemplate{title page}{
+  \usebackgroundtemplate{}
+  \begin{picture}(0,0)
+    \put(-27.97,61){
+      \includegraphics[width=\paperwidth]{spc-banner}
+    }
+    \put(-3,\titlepos){
+      \begin{minipage}{\textwidth}
+        \usebeamerfont{title}\usebeamercolor[fg]{title}\inserttitle
+      \end{minipage}
+    }
+    \put(-3,\authorpos){
+      \begin{minipage}{\textwidth}
+        \usebeamerfont{author}\usebeamercolor[fg]{author}\insertauthor
+      \end{minipage}
+    }
+    \put(-3,\datepos){
+      \begin{minipage}{\textwidth}
+        \usebeamerfont{date}\usebeamercolor[fg]{date}\insertdate
+      \end{minipage}
+    }
+  \end{picture}
+}
+
+% ----------
+% 3 Commands
+% ----------
+
+% 3.1 Color
+\newcommand\black{\color{black}}
+\newcommand\blue{\color{blue}}
+\newcommand\darkblue{\color{darkblue}}
+\newcommand\gray{\color{gray}}
+\newcommand\darkgray{\color{darkgray}}
+\newcommand\green{\color{green}}
+\newcommand\darkgreen{\color{darkgreen}}
+\newcommand\orange{\color{orange}}
+\newcommand\textblack[1]{\textcolor{black}{#1}}
+\newcommand\textblue[1]{\textcolor{blue}{#1}}
+\newcommand\textdarkblue[1]{\textcolor{darkblue}{#1}}
+\newcommand\textgray[1]{\textcolor{gray}{#1}}
+\newcommand\textdarkgray[1]{\textcolor{darkgray}{#1}}
+\newcommand\textgreen[1]{\textcolor{green}{#1}}
+\newcommand\textdarkgreen[1]{\textcolor{darkgreen}{#1}}
+\newcommand\textorange[1]{\textcolor{orange}{#1}}
+\newcommand\textwhite[1]{\textcolor{white}{#1}}
+\newcommand\white{\color{white}}
+
+% 3.2 Special
+\newcommand\comment[1]{\quad\textgreen{\textit{\small #1}}}
+\newcommand\fns{\footnotesize}
+\newcommand\h{\hspace}
