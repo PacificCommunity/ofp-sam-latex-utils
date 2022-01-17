@@ -1,2 +1,7 @@
-# ofp-sam-latex-utils
-This repository contains **L<sup>A</sup>T<sub>E</sub>X** utilities developped by and for the Oceanic Fisheries.
+# LaTeX utilities
+
+LaTeX utilities developed by the SPC Oceanic Fisheries Programme (OFP):
+
+- [report](report) - WCPFC reports
+- [slides](slides) - SPC slides
+- [utils](utils) - other utilities
