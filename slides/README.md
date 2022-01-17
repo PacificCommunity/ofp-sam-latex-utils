@@ -1,4 +1,4 @@
-# spc
+# SPC slides
 
 *LaTeX package to create slides in SPC format*
 
