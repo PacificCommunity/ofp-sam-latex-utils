@@ -5,7 +5,8 @@
 ## User guidelines
 
 To use the **spc** LaTeX package, place `spc.sty` and the `figs` folder in the
-working directory - or in a fixed location where LaTeX can find it.
+working directory - or in a [fixed location](INSTALL.md) where LaTeX can find
+it.
 
 Compile [demo.tex](doc/demo.tex) to see the basic functionality.
 
