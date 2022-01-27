@@ -27,3 +27,7 @@ End session and log in again.
 After downloading the `ofp-sam-latex-utils` repository to your hard drive, run
 the [`setup.bat`](setup.bat) script, from its location inside the `slides`
 folder.
+
+The `setup.bat` script creates a folder `c:/home/latex/sty/spc`, places
+`spc.sty` and the `figs` folder there, and makes LaTeX aware of this fixed
+location.
