@@ -59,6 +59,7 @@ citecolor= NavyBlue}
 \newcommand{\sbmsy}{$\mbox{\emph{SB}}_{\mbox{\smaller[3]{MSY}}}$\xspace}
 \newcommand{\sblsbfo}{$\mbox{\emph{SB}}_{latest}/\mbox{\emph{SB}}_{F=0}$\xspace}
 \newcommand{\sbcsbfo}{$\mbox{\emph{SB}}_{current}/\mbox{\emph{SB}}_{F=0}$\xspace}
+\newcommand{\sbsbfo}{$\mbox{\emph{SB}}/\mbox{\emph{SB}}_{F=0}$\xspace}
 \newcommand{\sblsbo}{$\mbox{\emph{SB}}_{latest}/\mbox{\emph{SB}}_{0}$\xspace}
 
 \newcommand{\bo}{$\mbox{\emph{B}}_{0}$\xspace}
@@ -159,6 +160,9 @@ citecolor= NavyBlue}
 \newcommand{\repnumbr}{Use \textbackslash reportnumber to defined report number}
 \newcommand{\reportnumber}[1]{\renewcommand{\repnumbr}{#1}}
 
+\newcommand{\repdate}{Use \textbackslash reportdate to defined report date}
+\newcommand{\reportdate}[1]{\renewcommand{\repdate}{#1}}
+
 %% define title page macro 
 \newcommand{\wcpfctitlepage}{
 
@@ -166,7 +170,7 @@ citecolor= NavyBlue}
 \begin{center}
 \begin{figure}
 \begin{center}
-\includegraphics[scale=0.6]{~/ofp-sam-latex-utils/WCPFC-logo.jpg}
+\includegraphics[scale=0.6]{/home/rob/ofp-sam-latex-utils/WCPFC-logo.jpg}
 
 \end{center}
 \end{figure}
@@ -185,12 +189,21 @@ citecolor= NavyBlue}
 %\textbf{\tpnum/\repnumbr} % report number
 \textbf{\repnumbr}
 \end{flushright}
-\vspace{1in}
+\vspace{0.25in}
 
+\vspace{0.25in}
+\begin{flushright}
+%\textbf{23 July 2022}
+\textbf{\repdate}
+\end{flushright}
+
+\vspace{0.5in}
 \begin{center} % report authors
 \textbf{\spcauthor }
 %\textbf{\spcauthor \footnote{\label{spc-ref}Oceanic Fisheries Programme, Secretariat of the Pacific Community}}
 \end{center}
+
+
 
 \clearpage}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -220,7 +233,25 @@ citecolor= NavyBlue}
 \IfStrEq{\typedef}{SC15}{\def\tpmeeting{SCIENTIFIC COMMITTEE\\FIFTEENTH REGULAR SESSION}}{}
 \IfStrEq{\typedef}{SC15}{\def\tplocation{Pohnpei, Federated States of Micronesia}}{}
 \IfStrEq{\typedef}{SC15}{\def\tpdates{12--20 August 2019}}{}
-\IfStrEq{\typedef}{SC15}{\def\tpnum{WCPFC-SC11-2019}}{}
+\IfStrEq{\typedef}{SC15}{\def\tpnum{WCPFC-SC15-2019}}{}
+
+%%%%%%%%%% Settings for SC16: 
+\IfStrEq{\typedef}{SC16}{\def\tpmeeting{SCIENTIFIC COMMITTEE\\SIXTEENTH REGULAR SESSION}}{}
+\IfStrEq{\typedef}{SC16}{\def\tplocation{Online}}{}
+\IfStrEq{\typedef}{SC16}{\def\tpdates{11--20 August 2020}}{}
+\IfStrEq{\typedef}{SC16}{\def\tpnum{WCPFC-SC16-2020}}{}
+
+%%%%%%%%%% Settings for SC17: 
+\IfStrEq{\typedef}{SC17}{\def\tpmeeting{SCIENTIFIC COMMITTEE\\SEVENTEENTH REGULAR SESSION}}{}
+\IfStrEq{\typedef}{SC17}{\def\tplocation{Online}}{}
+\IfStrEq{\typedef}{SC17}{\def\tpdates{11--19 August 2021}}{}
+\IfStrEq{\typedef}{SC17}{\def\tpnum{WCPFC-SC17-2021}}{}
+
+%%%%%%%%%% Settings for SC18: 
+\IfStrEq{\typedef}{SC18}{\def\tpmeeting{SCIENTIFIC COMMITTEE\\EIGHTEENTH REGULAR SESSION}}{}
+\IfStrEq{\typedef}{SC18}{\def\tplocation{Online}}{}
+\IfStrEq{\typedef}{SC18}{\def\tpdates{10--18 August 2022}}{}
+\IfStrEq{\typedef}{SC18}{\def\tpnum{WCPFC-SC18-2022}}{}
 
 
 %%%%%%%%%% Settings for MOW4: 
