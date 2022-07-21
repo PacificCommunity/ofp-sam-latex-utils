@@ -170,7 +170,7 @@ citecolor= NavyBlue}
 \begin{center}
 \begin{figure}
 \begin{center}
-\includegraphics[scale=0.6]{/home/rob/ofp-sam-latex-utils/WCPFC-logo.jpg}
+\includegraphics[scale=0.6]{WCPFC-logo}
 
 \end{center}
 \end{figure}
