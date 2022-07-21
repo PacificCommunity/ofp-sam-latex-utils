@@ -38,6 +38,8 @@ filecolor= TealBlue,
 urlcolor= PineGreen,
 citecolor= NavyBlue}
 %%%%%%%%%%%%%%%%%%%%%%%%%
+\onehalfspacing
+
 \newcommand{\spcbiblio}{~/ofp-sam-latex-utils/ofp-sam-biblio.bib}
 
 % Define custom commands
