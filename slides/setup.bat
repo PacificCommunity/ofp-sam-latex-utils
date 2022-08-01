@@ -1,7 +1,6 @@
 @echo off
 
-md c:\home\latex\sty\spc
-xcopy sty c:\home\latex\sty\spc /s /y
+robocopy sty c:\home\latex\sty\spc /e /ndl /nfl /njs
 setx TEXINPUTS .//;c:/home/latex//;
 
 echo Installation completed
