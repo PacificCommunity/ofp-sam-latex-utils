@@ -24,7 +24,7 @@
 \RequirePackage{xspace}
 \RequirePackage{soul}
 \RequirePackage{parskip}
-\RequirePackage{grffile} % allows ~, . ,etc. in figure filenames
+\RequirePackage{grffile} % allows ~, ., etc. in figure filenames
 \RequirePackage[usenames,dvipsnames,svgnames]{xcolor}
 \RequirePackage{setspace}
 \RequirePackage[utf8]{inputenc}
@@ -43,7 +43,7 @@ citecolor= NavyBlue}
 \newcommand{\spcbiblio}{~/ofp-sam-latex-utils/ofp-sam-biblio.bib}
 
 % Custom commands
-\newcommand{\LnS}{\mathrm {log} \hspace{0.4mm}}
+\newcommand{\LnS}{\mathrm{log}\hspace{0.4mm}}
 \newcommand{\spc}{Oceanic Fisheries Programme, Secretariat of the Pacific Community}
 
 % More shortcuts: versus, via, degrees, right arrow
@@ -96,7 +96,7 @@ citecolor= NavyBlue}
 \def\hldefaultcol{Khaki}
 \sethlcolor{\hldefaultcol}
 
-\newcommand{\done}[1]{\st{#1}} % strikes text
+\newcommand{\done}[1]{\st{#1}} % strike text
 \newcommand{\hllb}[1]{\sethlcolor{PaleTurquoise} \hl{#1} \sethlcolor{\hldefaultcol}}
 \newcommand{\hlam}[1]{\sethlcolor{Aquamarine} \hl{#1} \sethlcolor{\hldefaultcol}}
 \newcommand{\hlcyan}[1]{\sethlcolor{Cyan} \hl{#1} \sethlcolor{\hldefaultcol}}
