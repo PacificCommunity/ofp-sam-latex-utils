@@ -147,16 +147,16 @@ citecolor= NavyBlue}
 }
 
 % Title page settings
-\newcommand{\spcauthor}{Use \textbackslash reportauthor to defined report authors}
+\newcommand{\spcauthor}{Use \textbackslash reportauthor to define report authors}
 \newcommand{\reportauthor}[1]{\renewcommand{\spcauthor}{#1}}
 
-\newcommand{\spctitle}{Use \textbackslash reporttitle to defined report authors}
+\newcommand{\spctitle}{Use \textbackslash reporttitle to define report authors}
 \newcommand{\reporttitle}[1]{\renewcommand{\spctitle}{#1}}
 
-\newcommand{\repnumbr}{Use \textbackslash reportnumber to defined report number}
+\newcommand{\repnumbr}{Use \textbackslash reportnumber to define report number}
 \newcommand{\reportnumber}[1]{\renewcommand{\repnumbr}{#1}}
 
-\newcommand{\repdate}{Use \textbackslash reportdate to defined report date}
+\newcommand{\repdate}{Use \textbackslash reportdate to define report date}
 \newcommand{\reportdate}[1]{\renewcommand{\repdate}{#1}}
 
 % Render title page
