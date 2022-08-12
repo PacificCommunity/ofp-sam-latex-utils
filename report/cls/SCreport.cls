@@ -3,9 +3,6 @@
 
 \LoadClass[11pt]{article}
 
-\DeclareOption{sc11}{\def\boum{allo!}}
-\ProcessOptions\relax
-
 % Load standard set of packages
 \RequirePackage{amssymb,amsmath}
 \RequirePackage{booktabs}
