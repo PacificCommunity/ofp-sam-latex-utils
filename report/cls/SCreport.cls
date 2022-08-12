@@ -208,7 +208,7 @@ citecolor= NavyBlue}
 \IfStrEq{\typedef}{SC11}{\def\tpnum{WCPFC-SC11-2015}}{}
 
 % SC12
-\IfStrEq{\typedef}{SC12}{\def\tpmeeting{SCIENTIFIC COMMITTEE\\TWELTH REGULAR SESSION}}{}
+\IfStrEq{\typedef}{SC12}{\def\tpmeeting{SCIENTIFIC COMMITTEE\\TWELFTH REGULAR SESSION}}{}
 \IfStrEq{\typedef}{SC12}{\def\tplocation{Goatland, Cuntsville}}{}
 \IfStrEq{\typedef}{SC12}{\def\tpdates{X--X August 2016}}{}
 \IfStrEq{\typedef}{SC12}{\def\tpnum{WCPFC-SC12-2016}}{}
