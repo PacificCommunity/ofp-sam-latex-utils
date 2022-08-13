@@ -37,6 +37,9 @@
 \RequirePackage{hyperref}
 \RequirePackage{relsize}
 
+% 2.2 Logo
+\graphicspath{{figs/}}
+
 % -----------
 % 3  Settings
 % -----------
