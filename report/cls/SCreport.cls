@@ -43,7 +43,7 @@ citecolor= NavyBlue}
 \newcommand{\LnS}{\mathrm{log}\hspace{0.4mm}}
 \newcommand{\spc}{Oceanic Fisheries Programme, Secretariat of the Pacific Community}
 
-% More shortcuts: versus, via, degrees, right arrow
+% More shortcuts: degrees, right arrow, versus, via
 \newcommand{\degree}{$^{\circ}$\xspace}
 \newcommand{\ra}{$\rightarrow{\;}$}
 \newcommand{\vs}{\emph{vs.}\xspace}
@@ -102,45 +102,44 @@ citecolor= NavyBlue}
 \newcommand{\hlgreen}[1]{\sethlcolor{YellowGreen} \hl{#1} \sethlcolor{\hldefaultcol}}
 \newcommand{\hlcoral}[1]{\sethlcolor{Coral} \hl{#1} \sethlcolor{\hldefaultcol}}
 
-% Normal figure, centred in page
-\newcommand{\capnow}{}
+\newcommand{\capnow}{}  % placeholder for user to set caption
+
+% Normal figure
 \newcommand{\addcenterfig}[3][Caption to be completed]{
   \begin{figure}[!ht]
     \begin{center}
       \includegraphics[width=\textwidth]{#3}
-     \caption{#1 \label{#2}}
+      \caption{#1 \label{#2}}
     \end{center}
   \end{figure}
 }
 
+% Figure of a specific width
 \newcommand{\addcenterfigCW}[4][Caption to be completed]{
   \begin{figure}[!ht]
     \begin{center}
       \includegraphics[width=#2]{#4}
-     \caption{#1 \label{#3}}
+      \caption{#1 \label{#3}}
     \end{center}
   \end{figure}
 }
 
 % Landscape figure
 \newcommand{\addcenterfigLS}[3][Caption to be completed]{
- \newgeometry{left=0.5cm,bottom=2.5cm,right=1cm,top=2.5cm}
-\thispagestyle{empty}
-\begin{landscape}
-   \vspace*{\fill}
-
-\begin{figure}[!ht]
-    \begin{center}
-      \includegraphics[width=620pt]{#3}
-     \caption{#1 \label{#2}}
-    \end{center}
-
-  \end{figure}
-  \vspace*{\fill}
-
-\clearpage
-\end{landscape}
-\restoregeometry
+  \newgeometry{left=0.5cm,bottom=2.5cm,right=1cm,top=2.5cm}
+  \thispagestyle{empty}
+  \begin{landscape}
+    \vspace*{\fill}
+    \begin{figure}[!ht]
+      \begin{center}
+        \includegraphics[width=620pt]{#3}
+        \caption{#1 \label{#2}}
+      \end{center}
+    \end{figure}
+    \vspace*{\fill}
+    \clearpage
+  \end{landscape}
+  \restoregeometry
 }
 
 % Title page settings
