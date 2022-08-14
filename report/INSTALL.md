@@ -10,7 +10,7 @@ folder there:
 
 ```
 ~/latex/cls/SCreport/SCreport.cls
-~/latex/cls/SCreport/figs/WCPFC-logo.png
+~/latex/cls/SCreport/figs/WCPFC-logo.pdf
 ```
 
 Edit `~/.profile` and add the following line:

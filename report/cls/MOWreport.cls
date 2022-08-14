@@ -161,8 +161,9 @@ citecolor= NavyBlue}
 \begin{center}
 \begin{figure}
 \begin{center}
-\includegraphics[scale=0.6]{C:/latex-utils/WCPFC-logo.png}
-
+\vspace{2pt}
+\hspace{6pt}\includegraphics[width=150pt]{WCPFC-logo}
+\vspace{2.5pt}
 \end{center}
 \end{figure}
 \textbf{\\MANAGEMENT OBJECTIVES WORKSHOP\\}
