@@ -235,7 +235,9 @@
   \begin{center}
     \begin{figure}
       \begin{center}
-        \includegraphics[scale=0.6]{WCPFC-logo}
+        \vspace{2pt}
+        \hspace{6pt}\includegraphics[width=150pt]{WCPFC-logo}
+        \vspace{3pt}
       \end{center}
     \end{figure}
     \textbf{\tpmeeting}\\
