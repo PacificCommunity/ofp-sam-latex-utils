@@ -18,7 +18,6 @@
 \RequirePackage{etoolbox}
 \RequirePackage{xstring}
 \RequirePackage{caption}
-\RequirePackage[usenames,dvipsnames,svgnames]{xcolor}
 \RequirePackage{graphicx}
 \RequirePackage{fullpage}
 \RequirePackage[margin=1in]{geometry}
@@ -28,7 +27,6 @@
 \RequirePackage{natbib}
 \RequirePackage{url}
 \RequirePackage{xspace}
-\RequirePackage{soul}
 \RequirePackage{parskip}
 \RequirePackage{grffile} % allows ~, ., etc. in figure filenames
 \RequirePackage[usenames,dvipsnames,svgnames]{xcolor}
