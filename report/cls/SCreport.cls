@@ -13,27 +13,27 @@
 % ---------------
 
 % 2.1 Packages
+\RequirePackage[utf8]{inputenc}
+\RequirePackage[margin=1in]{geometry}
 \RequirePackage{amssymb,amsmath}
 \RequirePackage{booktabs}
-\RequirePackage{etoolbox}
-\RequirePackage{xstring}
 \RequirePackage{caption}
-\RequirePackage{graphicx}
-\RequirePackage{fullpage}
-\RequirePackage[margin=1in]{geometry}
 \RequirePackage{comment}
-\RequirePackage{soul}
-\RequirePackage{pdflscape}
-\RequirePackage{natbib}
-\RequirePackage{url}
-\RequirePackage{xspace}
-\RequirePackage{parskip}
+\RequirePackage{etoolbox}
+\RequirePackage{fullpage}
+\RequirePackage{graphicx}
 \RequirePackage{grffile} % allows ~, ., etc. in figure filenames
-\RequirePackage[usenames,dvipsnames,svgnames]{xcolor}
-\RequirePackage{setspace}
-\RequirePackage[utf8]{inputenc}
-\RequirePackage{hyperref}
+\RequirePackage{natbib}
+\RequirePackage{parskip}
+\RequirePackage{pdflscape}
 \RequirePackage{relsize}
+\RequirePackage{setspace}
+\RequirePackage{soul}
+\RequirePackage{url}
+\RequirePackage[usenames,dvipsnames,svgnames]{xcolor}
+\RequirePackage{xspace}
+\RequirePackage{xstring}
+\RequirePackage{hyperref}
 
 % 2.2 Logo
 \graphicspath{{figs/}}
