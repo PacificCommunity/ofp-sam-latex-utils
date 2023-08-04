@@ -1,5 +1,5 @@
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{SCreport}[2022/08/13 v18.1 WCPFC Scientific Committee report]
+\ProvidesClass{SCreport}[2023/08/04 v19.0 WCPFC Scientific Committee report]
 
 % ----------
 % 1  Inherit
@@ -76,6 +76,7 @@
 \newcommand{\bet}{bigeye tuna\xspace}
 
 % 4.3 Spawning biomass
+\renewcommand{\sb}{$\mbox{\emph{SB}}$\xspace}
 \newcommand{\sbo}{$\mbox{\emph{SB}}_{0}$\xspace}
 \newcommand{\sbfo}{$\mbox{\emph{SB}}_{F=0}$\xspace}
 \newcommand{\sblsbmsy}{$\mbox{\emph{SB}}_{latest}/\mbox{\emph{SB}}_{\mbox{\smaller[3]{MSY}}}$\xspace}
@@ -219,6 +220,11 @@
   \IfStrEq{\typedef}{SC18}{\def\tplocation{Online}}{}
   \IfStrEq{\typedef}{SC18}{\def\tpdates{10--18 August 2022}}{}
   \IfStrEq{\typedef}{SC18}{\def\tpnum{WCPFC-SC18-2022}}{}
+  % SC19
+  \IfStrEq{\typedef}{SC19}{\def\tpmeeting{SCIENTIFIC COMMITTEE\\NINETEENTH REGULAR SESSION}}{}
+  \IfStrEq{\typedef}{SC19}{\def\tplocation{Koror, Palau}}{}
+  \IfStrEq{\typedef}{SC19}{\def\tpdates{16--24 August 2023}}{}
+  \IfStrEq{\typedef}{SC19}{\def\tpnum{WCPFC-SC19-2023}}{}
   % MOW4
   \IfStrEq{\typedef}{MOW4}{\def\tpmeeting{WCPFC\\HARVEST STRATEGY WORKSHOP}}{}
   \IfStrEq{\typedef}{MOW4}{\def\tplocation{Stones Hotel}}{}
