@@ -90,6 +90,8 @@
 \newcommand{\sblsbo}{$\mbox{\emph{SB}}_{latest}/\mbox{\emph{SB}}_{0}$\xspace}
 \newcommand{\sbrecent}{$\mbox{\emph{SB}}_{recent}$\xspace}
 \newcommand{\sbrsbfo}{$\mbox{\emph{SB}}_{recent}/\mbox{\emph{SB}}_{F=0}$\xspace}
+\newcommand{\sbrsbmsy}{$\mbox{\emph{SB}}_{recent}/\mbox{\emph{SB}}_{\mbox{\smaller[3]{MSY}}}$\xspace}
+
 
 % 4.4 Biomass
 \newcommand{\bo}{$\mbox{\emph{B}}_{0}$\xspace}
@@ -104,13 +106,15 @@
 
 % 4.5 Fishing mortality and catch
 \newcommand{\fmsy}{$F_{\mbox{\smaller[3]{MSY}}}$\xspace}
-\newcommand{\fref}{$F_{current}/F_{\mbox{\smaller[3]{MSY}}}$\xspace}
+\newcommand{\fref}{$F_{recent}/F_{\mbox{\smaller[3]{MSY}}}$\xspace}
 \newcommand{\fcurr}{$F_{current}$\xspace}
 \newcommand{\fmult}{\emph{fmult}\xspace}
 \newcommand{\yfcurr}{$YF_{current}$\xspace}
 \newcommand{\clatest}{$\mbox{\emph{C}}_{latest}$\xspace}
 \newcommand{\clatestmsy}{$\mbox{\emph{C}}_{latest}/F_{\mbox{\smaller[3]{MSY}}}$\xspace}
 \newcommand{\msy}{$\mbox{MSY}$\xspace}
+\newcommand{\frecent}{$F_{recent}$\xspace}
+\newcommand{\yfrecent}{$YF_{recent}$\xspace}
 
 % 4.6 Colors
 \newcommand{\hllb}[1]{\sethlcolor{PaleTurquoise} \hl{#1} \sethlcolor{\hldefaultcol}}
