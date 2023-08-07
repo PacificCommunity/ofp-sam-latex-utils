@@ -92,7 +92,6 @@
 \newcommand{\sbrsbfo}{$\mbox{\emph{SB}}_{recent}/\mbox{\emph{SB}}_{F=0}$\xspace}
 \newcommand{\sbrsbmsy}{$\mbox{\emph{SB}}_{recent}/\mbox{\emph{SB}}_{\mbox{\smaller[3]{MSY}}}$\xspace}
 
-
 % 4.4 Biomass
 \newcommand{\bo}{$\mbox{\emph{B}}_{0}$\xspace}
 \newcommand{\bfo}{$\mbox{\emph{B}}_{F=0}$\xspace}
