@@ -1,5 +1,5 @@
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{SCreport}[2023/08/04 v19.0 WCPFC Scientific Committee report]
+\ProvidesClass{SCreport}[2023/08/07 v19.1 WCPFC Scientific Committee report]
 
 % ----------
 % 1  Inherit
@@ -88,6 +88,8 @@
 \newcommand{\sbcsbfo}{$\mbox{\emph{SB}}_{current}/\mbox{\emph{SB}}_{F=0}$\xspace}
 \newcommand{\sbsbfo}{$\mbox{\emph{SB}}/\mbox{\emph{SB}}_{F=0}$\xspace}
 \newcommand{\sblsbo}{$\mbox{\emph{SB}}_{latest}/\mbox{\emph{SB}}_{0}$\xspace}
+\newcommand{\sbrecent}{$\mbox{\emph{SB}}_{recent}$\xspace}
+\newcommand{\sbrsbfo}{$\mbox{\emph{SB}}_{recent}/\mbox{\emph{SB}}_{F=0}$\xspace}
 
 % 4.4 Biomass
 \newcommand{\bo}{$\mbox{\emph{B}}_{0}$\xspace}
