@@ -89,11 +89,13 @@
 \newcommand{\sblsbmsy}{$\mbox{\emph{SB}}_\mathrm{latest}/\mbox{\emph{SB}}_{\mbox{\smaller[3]{MSY}}}$\xspace}
 \newcommand{\sblsbo}{$\mbox{\emph{SB}}_\mathrm{latest}/\mbox{\emph{SB}}_{0}$\xspace}
 \newcommand{\sbmsy}{$\mbox{\emph{SB}}_{\mbox{\smaller[3]{MSY}}}$\xspace}
+\newcommand{\sbmsysbfo}{$\mbox{\emph{SB}}_{\mbox{\smaller[3]{MSY}}}/\mbox{\emph{SB}}_{F=0}$\xspace}
 \newcommand{\sbo}{$\mbox{\emph{SB}}_{0}$\xspace}
 \newcommand{\sbrecent}{$\mbox{\emph{SB}}_\mathrm{recent}$\xspace}
 \newcommand{\sbrsbfo}{$\mbox{\emph{SB}}_\mathrm{recent}/\mbox{\emph{SB}}_{F=0}$\xspace}
 \newcommand{\sbrsbmsy}{$\mbox{\emph{SB}}_\mathrm{recent}/\mbox{\emph{SB}}_{\mbox{\smaller[3]{MSY}}}$\xspace}
 \newcommand{\sbsbfo}{$\mbox{\emph{SB}}/\mbox{\emph{SB}}_{F=0}$\xspace}
+\newcommand{\sbsbmsy}{$\mbox{\emph{SB}}/\mbox{\emph{SB}}_{\mbox{\smaller[3]{MSY}}}$\xspace}
 
 % 4.4 Biomass
 \newcommand{\bcurr}{$\mbox{\emph{B}}_\mathrm{current}$\xspace}
@@ -111,6 +113,7 @@
 \newcommand{\clatestmsy}{$\mbox{\emph{C}}_\mathrm{latest}/F_{\mbox{\smaller[3]{MSY}}}$\xspace}
 \newcommand{\fcurr}{$F_\mathrm{current}$\xspace}
 \newcommand{\fmsy}{$F_{\mbox{\smaller[3]{MSY}}}$\xspace}
+\newcommand{\ffmsy}{$F/F_{\mbox{\smaller[3]{MSY}}}$\xspace}
 \newcommand{\fmult}{$f_\mathrm{mult}$\xspace}
 \newcommand{\frecent}{$F_\mathrm{recent}$\xspace}
 \newcommand{\fref}{$F_\mathrm{recent}/F_{\mbox{\smaller[3]{MSY}}}$\xspace}
