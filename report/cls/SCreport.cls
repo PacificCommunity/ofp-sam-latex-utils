@@ -89,6 +89,7 @@
 \newcommand{\sblsbmsy}{$\mbox{\emph{SB}}_\mathrm{latest}/\mbox{\emph{SB}}_{\mbox{\smaller[3]{MSY}}}$\xspace}
 \newcommand{\sblsbo}{$\mbox{\emph{SB}}_\mathrm{latest}/\mbox{\emph{SB}}_{0}$\xspace}
 \newcommand{\sbmsy}{$\mbox{\emph{SB}}_{\mbox{\smaller[3]{MSY}}}$\xspace}
+\newcommand{\sbmsysbo}{$\mbox{\emph{SB}}_{\mbox{\smaller[3]{MSY}}}/\mbox{\emph{SB}}_{0}$\xspace}
 \newcommand{\sbmsysbfo}{$\mbox{\emph{SB}}_{\mbox{\smaller[3]{MSY}}}/\mbox{\emph{SB}}_{F=0}$\xspace}
 \newcommand{\sbo}{$\mbox{\emph{SB}}_{0}$\xspace}
 \newcommand{\sbrecent}{$\mbox{\emph{SB}}_\mathrm{recent}$\xspace}
