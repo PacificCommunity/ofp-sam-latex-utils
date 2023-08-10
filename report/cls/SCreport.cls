@@ -1,5 +1,5 @@
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{SCreport}[2023/08/10 v19.3 WCPFC Scientific Committee report]
+\ProvidesClass{SCreport}[2023/08/10 v19.4 WCPFC Scientific Committee report]
 
 % ----------
 % 1  Inherit
@@ -97,6 +97,10 @@
 \newcommand{\sbrsbmsy}{$\mbox{\emph{SB}}_\mathrm{recent}/\mbox{\emph{SB}}_{\mbox{\smaller[3]{MSY}}}$\xspace}
 \newcommand{\sbsbfo}{$\mbox{\emph{SB}}/\mbox{\emph{SB}}_{F=0}$\xspace}
 \newcommand{\sbsbmsy}{$\mbox{\emph{SB}}/\mbox{\emph{SB}}_{\mbox{\smaller[3]{MSY}}}$\xspace}
+\newcommand{\sbt}{$\mbox{\emph{SB}}_t$\xspace}
+\newcommand{\sbtfo}{$\mbox{\emph{SB}}_{t,F=0}$\xspace}
+\newcommand{\sbtsbfo}{$\mbox{\emph{SB}}_t/\mbox{\emph{SB}}_{t,F=0}$\xspace}
+\newcommand{\sbtsbmsy}{$\mbox{\emph{SB}}_t/\mbox{\emph{SB}}_{\mbox{\smaller[3]{MSY}}}$\xspace}
 
 % 4.4 Biomass
 \newcommand{\bcurr}{$\mbox{\emph{B}}_\mathrm{current}$\xspace}
@@ -118,6 +122,7 @@
 \newcommand{\fmult}{$f_\mathrm{mult}$\xspace}
 \newcommand{\frecent}{$F_\mathrm{recent}$\xspace}
 \newcommand{\fref}{$F_\mathrm{recent}/F_{\mbox{\smaller[3]{MSY}}}$\xspace}
+\newcommand{\ftfmsy}{$F_t/F_{\mbox{\smaller[3]{MSY}}}$\xspace}
 \newcommand{\msy}{$\mbox{MSY}$\xspace}
 \newcommand{\yfcurr}{$Y_{F_\mathrm{current}}$\xspace}
 \newcommand{\yfrecent}{$Y_{F_\mathrm{recent}}$\xspace}
