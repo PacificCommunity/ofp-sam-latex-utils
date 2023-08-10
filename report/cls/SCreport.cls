@@ -77,42 +77,42 @@
 
 % 4.3 Spawning biomass
 \renewcommand{\sb}{$\mbox{\emph{SB}}$\xspace}
-\newcommand{\sbo}{$\mbox{\emph{SB}}_{0}$\xspace}
-\newcommand{\sbfo}{$\mbox{\emph{SB}}_{F=0}$\xspace}
-\newcommand{\sblsbmsy}{$\mbox{\emph{SB}}_{latest}/\mbox{\emph{SB}}_{\mbox{\smaller[3]{MSY}}}$\xspace}
-\newcommand{\sbcsbmsy}{$\mbox{\emph{SB}}_{current}/\mbox{\emph{SB}}_{\mbox{\smaller[3]{MSY}}}$\xspace}
-\newcommand{\sblatest}{$\mbox{\emph{SB}}_{latest}$\xspace}
 \newcommand{\sbcurr}{$\mbox{\emph{SB}}_{current}$\xspace}
-\newcommand{\sbmsy}{$\mbox{\emph{SB}}_{\mbox{\smaller[3]{MSY}}}$\xspace}
-\newcommand{\sblsbfo}{$\mbox{\emph{SB}}_{latest}/\mbox{\emph{SB}}_{F=0}$\xspace}
 \newcommand{\sbcsbfo}{$\mbox{\emph{SB}}_{current}/\mbox{\emph{SB}}_{F=0}$\xspace}
-\newcommand{\sbsbfo}{$\mbox{\emph{SB}}/\mbox{\emph{SB}}_{F=0}$\xspace}
+\newcommand{\sbcsbmsy}{$\mbox{\emph{SB}}_{current}/\mbox{\emph{SB}}_{\mbox{\smaller[3]{MSY}}}$\xspace}
+\newcommand{\sbfo}{$\mbox{\emph{SB}}_{F=0}$\xspace}
+\newcommand{\sblatest}{$\mbox{\emph{SB}}_{latest}$\xspace}
+\newcommand{\sblsbfo}{$\mbox{\emph{SB}}_{latest}/\mbox{\emph{SB}}_{F=0}$\xspace}
+\newcommand{\sblsbmsy}{$\mbox{\emph{SB}}_{latest}/\mbox{\emph{SB}}_{\mbox{\smaller[3]{MSY}}}$\xspace}
 \newcommand{\sblsbo}{$\mbox{\emph{SB}}_{latest}/\mbox{\emph{SB}}_{0}$\xspace}
+\newcommand{\sbmsy}{$\mbox{\emph{SB}}_{\mbox{\smaller[3]{MSY}}}$\xspace}
+\newcommand{\sbo}{$\mbox{\emph{SB}}_{0}$\xspace}
 \newcommand{\sbrecent}{$\mbox{\emph{SB}}_{recent}$\xspace}
 \newcommand{\sbrsbfo}{$\mbox{\emph{SB}}_{recent}/\mbox{\emph{SB}}_{F=0}$\xspace}
 \newcommand{\sbrsbmsy}{$\mbox{\emph{SB}}_{recent}/\mbox{\emph{SB}}_{\mbox{\smaller[3]{MSY}}}$\xspace}
+\newcommand{\sbsbfo}{$\mbox{\emph{SB}}/\mbox{\emph{SB}}_{F=0}$\xspace}
 
 % 4.4 Biomass
-\newcommand{\bo}{$\mbox{\emph{B}}_{0}$\xspace}
-\newcommand{\bfo}{$\mbox{\emph{B}}_{F=0}$\xspace}
-\newcommand{\blbmsy}{$\mbox{\emph{B}}_{latest}/\mbox{\emph{B}}_{\mbox{\smaller[3]{MSY}}}$\xspace}
-\newcommand{\bcbmsy}{$\mbox{\emph{B}}_{current}/\mbox{\emph{B}}_{\mbox{\smaller[3]{MSY}}}$\xspace}
-\newcommand{\blatest}{$\mbox{\emph{B}}_{latest}$\xspace}
 \newcommand{\bcurr}{$\mbox{\emph{B}}_{current}$\xspace}
-\newcommand{\bmsy}{$\mbox{\emph{B}}_{\mbox{\smaller[3]{MSY}}}$\xspace}
-\newcommand{\blbfo}{$\mbox{\emph{B}}_{latest}/\mbox{\emph{B}}_{F=0}$\xspace}
 \newcommand{\bcbfo}{$\mbox{\emph{B}}_{current}/\mbox{\emph{B}}_{F=0}$\xspace}
+\newcommand{\bcbmsy}{$\mbox{\emph{B}}_{current}/\mbox{\emph{B}}_{\mbox{\smaller[3]{MSY}}}$\xspace}
+\newcommand{\bfo}{$\mbox{\emph{B}}_{F=0}$\xspace}
+\newcommand{\blatest}{$\mbox{\emph{B}}_{latest}$\xspace}
+\newcommand{\blbfo}{$\mbox{\emph{B}}_{latest}/\mbox{\emph{B}}_{F=0}$\xspace}
+\newcommand{\blbmsy}{$\mbox{\emph{B}}_{latest}/\mbox{\emph{B}}_{\mbox{\smaller[3]{MSY}}}$\xspace}
+\newcommand{\bmsy}{$\mbox{\emph{B}}_{\mbox{\smaller[3]{MSY}}}$\xspace}
+\newcommand{\bo}{$\mbox{\emph{B}}_{0}$\xspace}
 
 % 4.5 Fishing mortality and catch
-\newcommand{\fmsy}{$F_{\mbox{\smaller[3]{MSY}}}$\xspace}
-\newcommand{\fref}{$F_{recent}/F_{\mbox{\smaller[3]{MSY}}}$\xspace}
-\newcommand{\fcurr}{$F_{current}$\xspace}
-\newcommand{\fmult}{\emph{fmult}\xspace}
-\newcommand{\yfcurr}{$YF_{current}$\xspace}
 \newcommand{\clatest}{$\mbox{\emph{C}}_{latest}$\xspace}
 \newcommand{\clatestmsy}{$\mbox{\emph{C}}_{latest}/F_{\mbox{\smaller[3]{MSY}}}$\xspace}
-\newcommand{\msy}{$\mbox{MSY}$\xspace}
+\newcommand{\fcurr}{$F_{current}$\xspace}
+\newcommand{\fmsy}{$F_{\mbox{\smaller[3]{MSY}}}$\xspace}
+\newcommand{\fmult}{\emph{fmult}\xspace}
 \newcommand{\frecent}{$F_{recent}$\xspace}
+\newcommand{\fref}{$F_{recent}/F_{\mbox{\smaller[3]{MSY}}}$\xspace}
+\newcommand{\msy}{$\mbox{MSY}$\xspace}
+\newcommand{\yfcurr}{$YF_{current}$\xspace}
 \newcommand{\yfrecent}{$YF_{recent}$\xspace}
 
 % 4.6 Colors
