@@ -22,7 +22,7 @@
 \RequirePackage{etoolbox}
 \RequirePackage{fullpage}
 \RequirePackage{graphicx}
-\RequirePackage{grffile} % allows ~, ., etc. in figure filenames
+\RequirePackage{grffile}  % allow ~, ., etc. in figure filenames
 \RequirePackage{natbib}
 \RequirePackage{parskip}
 \RequirePackage{pdflscape}
@@ -53,6 +53,9 @@
 
 % 3.2 Spacing
 \onehalfspacing
+
+% 3.3 Encoding
+\DeclareUnicodeCharacter{2212}{-}  % convert minus sign to hyphen
 
 % -------------------------
 % 4  Commands and variables
