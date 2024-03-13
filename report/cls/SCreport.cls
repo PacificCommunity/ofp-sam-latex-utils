@@ -1,5 +1,5 @@
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{SCreport}[2023/08/10 v19.4 WCPFC Scientific Committee report]
+\ProvidesClass{SCreport}[2024/03/13 v20.0 WCPFC Scientific Committee report]
 
 % ----------
 % 1  Inherit
@@ -242,6 +242,11 @@
   \IfStrEq{\typedef}{SC19}{\def\tplocation{Koror, Palau}}{}
   \IfStrEq{\typedef}{SC19}{\def\tpdates{16--24 August 2023}}{}
   \IfStrEq{\typedef}{SC19}{\def\tpnum{WCPFC-SC19-2023}}{}
+  % SC20
+  \IfStrEq{\typedef}{SC20}{\def\tpmeeting{SCIENTIFIC COMMITTEE\\TWENTIETH REGULAR SESSION}}{}
+  \IfStrEq{\typedef}{SC20}{\def\tplocation{Manila, Philippines}}{}
+  \IfStrEq{\typedef}{SC20}{\def\tpdates{14--21 August 2024}}{}
+  \IfStrEq{\typedef}{SC20}{\def\tpnum{WCPFC-SC20-2024}}{}
   % MOW4
   \IfStrEq{\typedef}{MOW4}{\def\tpmeeting{WCPFC\\HARVEST STRATEGY WORKSHOP}}{}
   \IfStrEq{\typedef}{MOW4}{\def\tplocation{Stones Hotel}}{}
