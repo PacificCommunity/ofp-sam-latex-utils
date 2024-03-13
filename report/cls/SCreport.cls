@@ -43,11 +43,8 @@
 % -----------
 
 % 3.1 Color
-\hypersetup{colorlinks,
-  linkcolor= PineGreen,
-  filecolor= TealBlue,
-  urlcolor= PineGreen,
-  citecolor= NavyBlue}
+\definecolor{SCblue}{rgb}{0,0.1,0.7}
+\hypersetup{colorlinks,linkcolor=SCblue,filecolor=SCblue,urlcolor=SCblue,citecolor=SCblue}
 \def\hldefaultcol{Khaki}
 \sethlcolor{\hldefaultcol}
 
