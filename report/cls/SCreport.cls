@@ -1,5 +1,5 @@
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{SCreport}[2024/03/13 v20.0 WCPFC Scientific Committee report]
+\ProvidesClass{SCreport}[2024/03/19 v20.1 WCPFC Scientific Committee report]
 
 % ----------
 % 1  Inherit
@@ -68,7 +68,7 @@
 
 % 4.2 SPC
 \newcommand{\spcbiblio}{~/ofp-sam-latex-utils/ofp-sam-biblio.bib}
-\newcommand{\spc}{Oceanic Fisheries Programme, Secretariat of the Pacific Community}
+\newcommand{\spc}{Oceanic Fisheries Programme, The Pacific Community}
 \newcommand{\lrp}{$20\%\mbox{\emph{SB}}_{F=0}$\xspace}
 \newcommand{\mfcl}{MULTIFAN-CL\xspace}
 \newcommand{\spalb}{south Pacific albacore tuna\xspace}
