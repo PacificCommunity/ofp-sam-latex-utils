@@ -49,6 +49,7 @@
 \sethlcolor{\hldefaultcol}
 
 % 3.2 Spacing
+\frenchspacing
 \onehalfspacing
 
 % 3.3 Encoding
