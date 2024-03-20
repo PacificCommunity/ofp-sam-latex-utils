@@ -20,6 +20,7 @@
 \RequirePackage{caption}
 \RequirePackage{comment}
 \RequirePackage{etoolbox}
+\RequirePackage{float}
 \RequirePackage{fullpage}
 \RequirePackage{graphicx}
 \RequirePackage{grffile}  % allow ~, ., etc. in figure filenames
@@ -29,6 +30,7 @@
 \RequirePackage{relsize}
 \RequirePackage{setspace}
 \RequirePackage{soul}
+\RequirePackage{tocloft}
 \RequirePackage{url}
 \RequirePackage[usenames,dvipsnames,svgnames]{xcolor}
 \RequirePackage{xspace}
@@ -51,9 +53,15 @@
 % 3.2 Spacing
 \frenchspacing
 \onehalfspacing
+\setlength\cftbeforesecskip{0pt}  % vertical space in TOC
 
 % 3.3 Encoding
 \DeclareUnicodeCharacter{2212}{-}  % convert minus sign to hyphen
+
+% 3.4 Cross-references
+\def\sectionautorefname{Section}
+\def\subsectionautorefname{Section}
+\def\subsubsectionautorefname{Section}
 
 % -------------------------
 % 4  Commands and variables
