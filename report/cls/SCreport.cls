@@ -21,7 +21,6 @@
 \RequirePackage{comment}
 \RequirePackage{etoolbox}
 \RequirePackage{float}
-\RequirePackage{fullpage}
 \RequirePackage{graphicx}
 \RequirePackage{grffile}  % allow ~, ., etc. in figure filenames
 \RequirePackage{natbib}
@@ -38,7 +37,7 @@
 \RequirePackage{xstring}
 \RequirePackage{hyperref}
 
-% 2.2 Logo
+% 2.2 Path
 \graphicspath{{figs/}}
 
 % -----------
