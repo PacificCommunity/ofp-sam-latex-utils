@@ -30,6 +30,7 @@
 \RequirePackage{relsize}
 \RequirePackage{setspace}
 \RequirePackage{soul}
+\RequirePackage{subcaption}
 \RequirePackage{tocloft}
 \RequirePackage{url}
 \RequirePackage[usenames,dvipsnames,svgnames]{xcolor}
