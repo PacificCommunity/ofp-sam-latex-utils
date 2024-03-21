@@ -63,6 +63,7 @@
 \def\sectionautorefname{Section}
 \def\subsectionautorefname{Section}
 \def\subsubsectionautorefname{Section}
+\def\bibsection{\section{References}}
 
 % -------------------------
 % 4  Commands and variables
