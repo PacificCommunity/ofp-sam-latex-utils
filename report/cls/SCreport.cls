@@ -254,12 +254,6 @@
   \IfStrEq{\typedef}{SC20}{\def\tplocation{Manila, Philippines}}{}
   \IfStrEq{\typedef}{SC20}{\def\tpdates{14--21 August 2024}}{}
   \IfStrEq{\typedef}{SC20}{\def\tpnum{WCPFC-SC20-2024}}{}
-  % MOW4
-  \IfStrEq{\typedef}{MOW4}{\def\tpmeeting{WCPFC\\HARVEST STRATEGY WORKSHOP}}{}
-  \IfStrEq{\typedef}{MOW4}{\def\tplocation{Stones Hotel}}{}
-  \IfStrEq{\typedef}{MOW4}{\def\tplocation{Kuta, Bali}}{}
-  \IfStrEq{\typedef}{MOW4}{\def\tpdates{30 November--1 December 2015}}{}
-  \IfStrEq{\typedef}{MOW4}{\def\tpnum{}}{}
 }
 
 % 6.3 Render title page
