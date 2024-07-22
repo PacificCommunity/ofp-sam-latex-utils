@@ -1,5 +1,5 @@
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{SCreport}[2024/03/19 v20.1 WCPFC Scientific Committee report]
+\ProvidesClass{SCreport}[2024/07/22 v20.3 WCPFC Scientific Committee report]
 
 % ----------
 % 1  Inherit
@@ -78,7 +78,7 @@
 
 % 4.2 SPC
 \newcommand{\spcbiblio}{~/ofp-sam-latex-utils/ofp-sam-biblio.bib}
-\newcommand{\spc}{Oceanic Fisheries Programme, The Pacific Community}
+\newcommand{\spc}{Oceanic Fisheries Programme of the Pacific Community}
 \newcommand{\lrp}{$20\%\mbox{\emph{SB}}_{F=0}$\xspace}
 \newcommand{\mfcl}{MULTIFAN-CL\xspace}
 \newcommand{\spalb}{south Pacific albacore tuna\xspace}
@@ -262,29 +262,26 @@
   \begin{center}
     \begin{figure}
       \begin{center}
-        \vspace{2pt}
-        \hspace{6pt}\includegraphics[width=150pt]{WCPFC-logo}
-        \vspace{2.5pt}
+        \vspace{-2ex}
+        \includegraphics[width=190pt]{WCPFC-logo}\\[-2ex]
       \end{center}
     \end{figure}
-    \textbf{\tpmeeting}\\
-    \tplocation\\
-    \tpdates\\
-    \vspace{0.5in}
-    \rule{\textwidth}{0.5mm}
-    \bfseries{\spctitle}
+    \singlespace
+    \textbf{\sffamily\small\tpmeeting}\\[3ex]
+    \textsf{\tplocation}\\
+    \textsf{\tpdates}\\
+    \rule{\textwidth}{0.5mm}\\
+    \textbf{\sffamily\spctitle}\\[-1.5ex]
     \rule{\textwidth}{0.5mm}
   \end{center}
+  \vspace{-1ex}
   \begin{flushright}
-    \textbf{\repnumbr}
+    \textbf{\sffamily\repnumbr}\\
+    \textbf{\sffamily\repdate}
   \end{flushright}
-  \vspace{0.5in}
-  \begin{flushright}
-    \textbf{\repdate}
-  \end{flushright}
-  \vspace{0.5in}
+  \vspace{2in}
   \begin{center}
-    \textbf{\spcauthor}
+    \textbf{\sffamily\spcauthor}
   \end{center}
   \clearpage
 }
