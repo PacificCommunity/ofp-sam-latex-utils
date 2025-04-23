@@ -1,5 +1,5 @@
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{SCreport}[2024/07/22 v20.3 WCPFC Scientific Committee report]
+\ProvidesClass{SCreport}[2025/04/23 v21.0 WCPFC Scientific Committee report]
 
 % ----------
 % 1  Inherit
@@ -18,6 +18,7 @@
 \RequirePackage{amssymb,amsmath}
 \RequirePackage{booktabs}
 \RequirePackage{caption}
+\RequirePackage[nameinlink,capitalize]{cleveref}  % \cref and \Crefrange
 \RequirePackage{comment}
 \RequirePackage{etoolbox}
 \RequirePackage{float}
@@ -188,12 +189,6 @@
   \restoregeometry
 }
 
-% 5.5 Refer to multiple figures inline using autorefs
-%  -- Use \cref{l1,l1,etc.} To comma separate figures
-%  -- Or \Crefrange{l1}{l5} for a range separate with -- 
-\usepackage[nameinlink, capitalize]{cleveref}
-\Crefname{figure}{Figure}{Figures}
-
 % ------------
 % 6 Title page
 % ------------
@@ -261,10 +256,10 @@
   \IfStrEq{\typedef}{SC20}{\def\tpdates{14--21 August 2024}}{}
   \IfStrEq{\typedef}{SC20}{\def\tpnum{WCPFC-SC20-2024}}{}
   % SC21
-  \IfStrEq{\typedef}{SC20}{\def\tpmeeting{SCIENTIFIC COMMITTEE\\TWENTY FIRST REGULAR SESSION}}{}
-  \IfStrEq{\typedef}{SC20}{\def\tplocation{Nuku'alofa, Tonga}}{}
-  \IfStrEq{\typedef}{SC20}{\def\tpdates{13--21 August 2024}}{}
-  \IfStrEq{\typedef}{SC20}{\def\tpnum{WCPFC-SC21-2025}}{}
+  \IfStrEq{\typedef}{SC21}{\def\tpmeeting{SCIENTIFIC COMMITTEE\\TWENTY-FIRST REGULAR SESSION}}{}
+  \IfStrEq{\typedef}{SC21}{\def\tplocation{Nuku'alofa, Tonga}}{}
+  \IfStrEq{\typedef}{SC21}{\def\tpdates{13--21 August 2024}}{}
+  \IfStrEq{\typedef}{SC21}{\def\tpnum{WCPFC-SC21-2025}}{}
 }
 
 % 6.3 Render title page
