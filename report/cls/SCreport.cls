@@ -18,7 +18,6 @@
 \RequirePackage{amssymb,amsmath}
 \RequirePackage{booktabs}
 \RequirePackage{caption}
-\RequirePackage[nameinlink,capitalize]{cleveref}  % \cref and \Crefrange
 \RequirePackage{comment}
 \RequirePackage{etoolbox}
 \RequirePackage{float}
@@ -37,6 +36,7 @@
 \RequirePackage{xspace}
 \RequirePackage{xstring}
 \RequirePackage{hyperref}
+\RequirePackage[nameinlink,capitalize]{cleveref}  % \cref and \Crefrange
 
 % 2.2 Path
 \graphicspath{{figs/}}
