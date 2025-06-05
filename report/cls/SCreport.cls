@@ -258,7 +258,7 @@
   % SC21
   \IfStrEq{\typedef}{SC21}{\def\tpmeeting{SCIENTIFIC COMMITTEE\\TWENTY-FIRST REGULAR SESSION}}{}
   \IfStrEq{\typedef}{SC21}{\def\tplocation{Nuku'alofa, Tonga}}{}
-  \IfStrEq{\typedef}{SC21}{\def\tpdates{13--21 August 2024}}{}
+  \IfStrEq{\typedef}{SC21}{\def\tpdates{13--21 August 2025}}{}
   \IfStrEq{\typedef}{SC21}{\def\tpnum{WCPFC-SC21-2025}}{}
 }
 
