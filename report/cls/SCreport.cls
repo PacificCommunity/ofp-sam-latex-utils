@@ -36,7 +36,6 @@
 \RequirePackage{xspace}
 \RequirePackage{xstring}
 \RequirePackage{hyperref}
-\RequirePackage[nameinlink,capitalize,noabbrev]{cleveref} % \cref and \Crefrange
 
 % 2.2 Path
 \graphicspath{{figs/}}
