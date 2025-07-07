@@ -1,5 +1,5 @@
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{SCreport}[2025/04/23 v21.0 WCPFC Scientific Committee report]
+\ProvidesClass{SCreport}[2025/07/08 v21.1 WCPFC Scientific Committee report]
 
 % ----------
 % 1  Inherit
@@ -36,7 +36,7 @@
 \RequirePackage{xspace}
 \RequirePackage{xstring}
 \RequirePackage{hyperref}
-\RequirePackage[nameinlink,capitalize]{cleveref}  % \cref and \Crefrange
+\RequirePackage[nameinlink,capitalize,noabbrev]{cleveref} % \cref and \Crefrange
 
 % 2.2 Path
 \graphicspath{{figs/}}
