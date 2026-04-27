@@ -1,5 +1,5 @@
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{SCreport}[2025/07/08 v21.1 WCPFC Scientific Committee report]
+\ProvidesClass{SCreport}[2026/04/27 v22.0 WCPFC Scientific Committee report]
 
 % ----------
 % 1  Inherit
@@ -259,6 +259,11 @@
   \IfStrEq{\typedef}{SC21}{\def\tplocation{Nuku'alofa, Tonga}}{}
   \IfStrEq{\typedef}{SC21}{\def\tpdates{13--21 August 2025}}{}
   \IfStrEq{\typedef}{SC21}{\def\tpnum{WCPFC-SC21-2025}}{}
+  % SC22
+  \IfStrEq{\typedef}{SC22}{\def\tpmeeting{SCIENTIFIC COMMITTEE\\TWENTY-SECOND REGULAR SESSION}}{}
+  \IfStrEq{\typedef}{SC22}{\def\tplocation{Apia, Samoa}}{}
+  \IfStrEq{\typedef}{SC22}{\def\tpdates{11--19 August 2026}}{}
+  \IfStrEq{\typedef}{SC22}{\def\tpnum{WCPFC-SC22-2026}}{}
 }
 
 % 6.3 Render title page
