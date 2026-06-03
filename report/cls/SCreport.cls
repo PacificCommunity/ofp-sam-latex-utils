@@ -264,6 +264,21 @@
   \IfStrEq{\typedef}{SC22}{\def\tplocation{Apia, Samoa}}{}
   \IfStrEq{\typedef}{SC22}{\def\tpdates{11--19 August 2026}}{}
   \IfStrEq{\typedef}{SC22}{\def\tpnum{WCPFC-SC22-2026}}{}
+  % WCPFC22
+  \IfStrEq{\typedef}{WCPFC22}{\def\tpmeeting{COMMISSION\\TWENTY SECOND REGULAR SESSION}}{}
+  \IfStrEq{\typedef}{WCPFC22}{\def\tplocation{Manila, Philippines}}{}
+  \IfStrEq{\typedef}{WCPFC22}{\def\tpdates{1--5 December 2025}}{}
+  \IfStrEq{\typedef}{WCPFC22}{\def\tpnum{}}{}
+  % SPAM2025
+  \IfStrEq{\typedef}{SPAM2025}{\def\tpmeeting{SOUTH PACIFIC ALBACORE MANAGEMENT WORKSHOP\\FIRST SESSION}}{}
+  \IfStrEq{\typedef}{SPAM2025}{\def\tplocation{Electronic Meeting}}{}
+  \IfStrEq{\typedef}{SPAM2025}{\def\tpdates{11--12 September 2025}}{}
+  \IfStrEq{\typedef}{SPAM2025}{\def\tpnum{WCPFC-SPAMWS-2025}}{}
+  % SPAM022025 November 5th 2025
+  \IfStrEq{\typedef}{SPAM022025}{\def\tpmeeting{SOUTH PACIFIC ALBACORE MANAGEMENT WORKSHOP (SPAMWS)\\SECOND SESSION}}{}
+  \IfStrEq{\typedef}{SPAM022025}{\def\tplocation{Electronic Meeting}}{}
+  \IfStrEq{\typedef}{SPAM022025}{\def\tpdates{Wednesday, 5 November 2025}}{}
+  \IfStrEq{\typedef}{SPAM022025}{\def\tpnum{WCPFC-SPAMWS02-2025}}{}
 }
 
 % 6.3 Render title page
