@@ -24,13 +24,13 @@
 \RequirePackage{graphicx}
 \RequirePackage{grffile}  % allow ~, ., etc. in figure filenames
 \RequirePackage{natbib}
+\RequirePackage{tocloft}  % produces a warning if loaded after parskip
 \RequirePackage{parskip}
 \RequirePackage{pdflscape}
 \RequirePackage{relsize}
 \RequirePackage{setspace}
 \RequirePackage{soul}
 \RequirePackage{subcaption}
-\RequirePackage{tocloft}
 \RequirePackage{url}
 \RequirePackage[dvipsnames,svgnames]{xcolor}
 \RequirePackage{xspace}
