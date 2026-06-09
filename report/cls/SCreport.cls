@@ -32,7 +32,7 @@
 \RequirePackage{subcaption}
 \RequirePackage{tocloft}
 \RequirePackage{url}
-\RequirePackage[usenames,dvipsnames,svgnames]{xcolor}
+\RequirePackage[dvipsnames,svgnames]{xcolor}
 \RequirePackage{xspace}
 \RequirePackage{xstring}
 \RequirePackage{hyperref}
