@@ -1,5 +1,5 @@
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{SCreport}[2026/04/27 v22.0 WCPFC Scientific Committee report]
+\ProvidesClass{SCreport}[2026/06/29 v22.1 WCPFC Scientific Committee report]
 
 % ----------
 % 1  Inherit
@@ -55,10 +55,7 @@
 \onehalfspacing
 \setlength\cftbeforesecskip{0pt}  % vertical space in TOC
 
-% 3.3 Encoding
-\DeclareUnicodeCharacter{2212}{-}  % convert minus sign to hyphen
-
-% 3.4 Cross-references
+% 3.3 Cross-references
 \def\sectionautorefname{Section}
 \def\subsectionautorefname{Section}
 \def\subsubsectionautorefname{Section}
