@@ -258,7 +258,7 @@
   \IfStrEq{\typedef}{SC21}{\def\tpnum{WCPFC-SC21-2025}}{}
   % SC22
   \IfStrEq{\typedef}{SC22}{\def\tpmeeting{SCIENTIFIC COMMITTEE\\TWENTY-SECOND REGULAR SESSION}}{}
-  \IfStrEq{\typedef}{SC22}{\def\tplocation{Apia, Samoa}}{}
+  \IfStrEq{\typedef}{SC22}{\def\tplocation{Apia, Samoa (Hybrid)}}{}
   \IfStrEq{\typedef}{SC22}{\def\tpdates{11--19 August 2026}}{}
   \IfStrEq{\typedef}{SC22}{\def\tpnum{WCPFC-SC22-2026}}{}
   % WCPFC22
@@ -290,8 +290,8 @@
     \end{figure}
     \singlespace
     \textbf{\sffamily\small\tpmeeting}\\[3ex]
-    \textsf{\tplocation}\\
     \textsf{\tpdates}\\
+    \textsf{\tplocation}\\
     \rule{\textwidth}{0.5mm}\\
     \textbf{\sffamily\spctitle}\\[-1.5ex]
     \rule{\textwidth}{0.5mm}
