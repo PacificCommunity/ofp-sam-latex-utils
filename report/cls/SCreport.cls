@@ -1,5 +1,5 @@
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{SCreport}[2026/06/29 v22.1 WCPFC Scientific Committee report]
+\ProvidesClass{SCreport}[2026/07/21 v22.2 WCPFC Scientific Committee report]
 
 % ----------
 % 1  Inherit
